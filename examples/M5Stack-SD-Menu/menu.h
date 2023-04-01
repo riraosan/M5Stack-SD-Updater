@@ -190,7 +190,7 @@ void gotoSleep()
   //M5.Lcd.fillScreen(TFT_BLACK);
   //M5.Lcd.sleep();
   //M5.Lcd.waitDisplay();
-  esp_deep_sleep_start();
+  //esp_deep_sleep_start();
 }
 
 void renderScroll( String scrollText, uint8_t x = 0, uint8_t y = 0, uint16_t width = tft.width() )
