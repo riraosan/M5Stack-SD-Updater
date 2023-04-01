@@ -80,7 +80,7 @@
 #include <Button2.h>
 #define USE_DISPLAY
 #define LGFX_ONLY
-#define TFCARD_CS_PIN -1
+#define TFCARD_CS_PIN 4
 
 static LGFX_8BIT_CVBS tft;
 #define LGFX LGFX_8BIT_CVBS
@@ -90,7 +90,8 @@ static LGFX_8BIT_CVBS tft;
 static LGFX_Sprite sprite(&tft);
 fs::SDFS &M5_FS(SD);
 
-Button2 button;//for G39
+#define BUTTON_PORT_NUM 16
+Button2 button;
 
 #endif
 

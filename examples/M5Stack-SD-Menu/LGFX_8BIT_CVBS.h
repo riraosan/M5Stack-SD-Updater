@@ -17,7 +17,7 @@ public:
 
       // 実際に利用する解像度を設定;
       cfg.panel_width  = 320 - 8;       // 実際に使用する幅   (memory_width と同値か小さい値を設定する)
-      cfg.panel_height = 240 - 16;  // 実際に使用する高さ (memory_heightと同値か小さい値を設定する)
+      cfg.panel_height = 240;  // 実際に使用する高さ (memory_heightと同値か小さい値を設定する)
 
       // 表示位置オフセット量を設定;
       cfg.offset_x = 4;  // 表示位置を右にずらす量 (初期値 0)

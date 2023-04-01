@@ -198,7 +198,7 @@ void HIDInit()
   button.setDoubleClickHandler(handler);
   button.setTripleClickHandler(handler);
   button.setLongClickHandler(handler);
-  button.begin(39);
+  button.begin(BUTTON_PORT_NUM);
 }
 
 
